@@ -1,0 +1,16 @@
+class Test_2{
+	public static void main(String arg[]){
+	dostuff();
+	System.out.println(10/0);
+
+	}
+	public static void dostuff()
+	{
+	domorestuff();
+	System.out.print("hello");
+	}
+	public static void domorestuff()
+	{
+	System.out.println("hi");
+	}
+}
